@@ -18,7 +18,7 @@ int main() {
             v.push_back(a);
         }
         bool f=1;
-        v.erase(unique(v.begin(),v.end()),v.end());
+        //v.erase(unique(v.begin(),v.end()),v.end());
         
         for(i=1;i<v.size();i++)
         {
